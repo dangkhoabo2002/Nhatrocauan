@@ -771,6 +771,31 @@ video {
 .middleBodyBot{
     padding-top: 20vh;
 }
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    height: auto;
+    margin-top: 10vh;
+    border:3px solid black;
+    border-radius: 12px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.gallery img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.middleBodyBot{
+    padding-top: 20vh;
+}
+
 /* ---------------RESPONSIVE-------------------*/
 @media (min-width: 768px) {
     .button {
